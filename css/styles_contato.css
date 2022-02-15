@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+/*--Barra navegação--*/
+
+.menu-principal {
+    height: 300px;
+    background-color: #fff6e5;
+}
+
+.menu-superior img {
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+
+.menu-principal h1 {
+    font-family: 'Dancing Script','Fuggles', cursive;
+    font-size: 150px;
+    color: #a07330;
+    text-align: center;
+    margin-top: -170px;
+}
+
+
+#menu-option li, a{
+	display: inline-block;
+	text-decoration: none;
+	
+}
+
+#menu-option{
+    text-align: center;
+    margin: 100 20px;
+    margin-top: 25px;
+    font-weight: bold;
+    color: #a07330;
+    font-size: 25px;
+}
+
+#menu-option li, a {
+    margin: 0 15px;
+    font-weight: bold;
+    color: #a07330;
+    cursor: pointer;
+    
+}
+
+#menu-option li:hover {
+    border-bottom: 1px solid #a07330;
+}
+
+/*Endereço e localização */
+
+.localizacao{
+    text-align: center;
+    margin: 30px;
+    color: #a07330;
+}
+
+.map-responsive{
+    width:500px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map-responsive p {
+    font-size: 20px;
+    color: #a07330;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*contato*/
+
+.contact {
+    text-align: center;
+    color: #a07330;
+    margin-bottom: 20px;
+    margin-top: 130px;
+}
+
+.fa-whatsapp {
+    color:#00BB2d;
+    font-size: 25px;
+}
+
+.clicar a{
+    color: #fff;
+    background: #00BB2d;
+    border-radius: 6px; 
+    padding: 10px; 
+    cursor: pointer;
+    border: none; 
+    font-size: 12px;
+    margin: 0px;
+}
+
+.clicar a:hover {
+    background:  #d3d3d3;
+    color: #000;
+}
+
+.contact h2 {
+    margin-top: 10px;
+}
+
+.fa-facebook{
+    margin-top: 10px;
+    color: #3b5998;
+    font-size: 30px;
+}
+
+.fa-instagram{
+    margin-top: 10px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+/*rodape*/
+
+footer {
+    background-color: #fff6e5;
+    height: 80px;
+
+}
+
+footer p{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+@media (max-width: 768px)
+{
+.menu-principal
+   {
+    width: 100%;
+    height: 200px;
+    background-color: #fff6e5;
+}
+
+.menu-principal img {
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 0.6;
+    width: 15%;
+    
+}
+.menu-principal h1 {
+    font-family: 'Dancing Script','Fuggles', cursive;
+    font-size: 100px;
+    color: #a07330;
+    text-align: center;
+    margin-top: -120px;
+}
+
+
+.market h1 {
+    width: 100%;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 20px;
+}
+
+.carousel-inner {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+}
+
+@media (max-width: 425px)
+{
+  .menu-principal
+   {
+    width: 100%;
+    height: 100px;
+    background-color: #fff6e5;
+}
+
+.menu-principal img {
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 0.6;
+    width: 15%;
+    
+}
+
+.menu-principal h1 {
+    font-family: 'Dancing Script','Fuggles', cursive;
+    margin-top: -60px;
+    font-size: 40px;
+    color: #a07330;
+    text-align: center;
+}
+
+#menu-option{
+    text-align: center;
+    margin: 100 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #a07330;
+    font-size: 15px;
+}
+
+#menu-option li, a {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #a07330;
+    cursor: pointer;
+    
+}
+
+.market h1 {
+    width: 100%;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.carousel-inner {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+}
+
+@media (max-width: 375px)
+{
+.menu-principal{
+    width: 100%;
+    height: 150px;
+    background-color: #fff6e5;
+}
+
+.menu-principal img {
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 0.6;
+    width: 15%;
+    
+}
+.menu-principal h1 {
+    font-family: 'Dancing Script','Fuggles', cursive;
+    font-size: 45px;
+    color: #a07330;
+    text-align: center;
+    margin-top: -60px;
+}
+
+#menu-option{
+    text-align: center;
+    margin: 100 20px;
+    margin-top: 25px;
+    font-weight: bold;
+    color: #a07330;
+    font-size: 15px;
+}
+
+#menu-option li, a {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #a07330;
+    cursor: pointer;
+    
+}
+
+.market h1 {
+    width: 100%;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.carousel-inner {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+}

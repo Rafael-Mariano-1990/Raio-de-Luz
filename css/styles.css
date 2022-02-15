@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+/*--Barra navegação--*/
+
+
+.menu-principal {
+    height: 300px;
+    background-color: #fff6e5;
+}
+
+.menu-superior img {
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+
+.menu-principal h1 {
+    font-family: 'Dancing Script','Fuggles', cursive;
+    font-size: 150px;
+    color: #a07330;
+    text-align: center;
+    margin-top: -170px;
+}
+
+
+#menu-option li, a{
+	display: inline-block;
+	text-decoration: none;
+	
+}
+
+#menu-option{
+    text-align: center;
+    margin: 100 20px;
+    margin-top: 25px;
+    font-weight: bold;
+    color: #a07330;
+    font-size: 25px;
+}
+
+#menu-option li, a {
+    margin: 0 15px;
+    font-weight: bold;
+    color: #a07330;
+    cursor: pointer;
+    
+}
+
+#menu-option li:hover {
+    border-bottom: 1px solid #a07330;
+}
+
+/*Corpo texto*/
+
+.market {
+    text-align: center;
+    color: #a07330;
+    margin-top: 40px;
+}
+
+.market h1 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.titulo {
+    color: #a07330;
+    text-align: center;
+}
+
+/*produtos*/
+
+.products {
+    padding-top: 40px;
+}
+.products h2 {
+    color: #a07330;
+    text-align: center;
+    font-family: "Segoe UI",Arial,sans-serif;
+    
+}
+
+.carousel {
+    position: relative;
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+
+.carousel-inner {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    width: 700px;
+}
+
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+
+.carousel-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+.carousel-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-control {
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+.carousel-control.prev {
+    left: 2%;
+}
+
+.carousel-control.next {
+    right: 2%;
+}
+
+.carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3,
+#carousel-4:checked ~ .control-4{
+    display: block;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.carousel-bullet {
+    color: #000;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.carousel-bullet:hover {
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet, 
+#carousel-4:checked ~ .control-4 ~ .carousel-indicators li:nth-child(4) .carousel-bullet {
+    color: #428bca;
+}
+
+
+/* Estoque*/
+
+.estoques {
+    margin-top: 50px;
+    text-align: center;
+    color: #a07330;
+    padding: 20px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.estoques a {
+    text-decoration: none;
+    color: #a07330;
+}
+
+.estoques a:hover {
+    border-bottom: 1px solid #a07330;
+}
+
+/*contato*/
+
+.contact {
+    text-align: center;
+    color: #a07330;
+    margin-bottom: 20px;
+}
+
+.fa-whatsapp {
+    color:#00BB2d;
+    font-size: 25px;
+}
+
+.clicar a{
+    color: #fff;
+    background: #00BB2d;
+    border-radius: 6px; 
+    padding: 10px; 
+    cursor: pointer;
+    border: none; 
+    font-size: 12px;
+}
+
+.clicar a:hover {
+    background:  #d3d3d3;
+    color: #000;
+}
+
+/*rodape*/
+
+footer {
+    background-color: #fff6e5;
+    height: 80px;
+
+}
+
+footer p{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+@media (max-width: 768px)
+{
+.menu-principal
+   {
+    width: 100%;
+    height: 200px;
+    background-color: #fff6e5;
+}
+
+.menu-principal img {
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 0.6;
+    width: 15%;
+    
+}
+.menu-principal h1 {
+    font-family: 'Dancing Script','Fuggles', cursive;
+    font-size: 100px;
+    color: #a07330;
+    text-align: center;
+    margin-top: -120px;
+}
+
+
+.market h1 {
+    width: 100%;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 20px;
+}
+
+.carousel-inner {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+}
+
+@media (max-width: 425px)
+{
+  .menu-principal
+   {
+    width: 100%;
+    height: 100px;
+    background-color: #fff6e5;
+}
+
+.menu-principal img {
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 0.6;
+    width: 15%;
+    
+}
+
+.menu-principal h1 {
+    font-family: 'Dancing Script','Fuggles', cursive;
+    margin-top: -60px;
+    font-size: 40px;
+    color: #a07330;
+    text-align: center;
+}
+
+#menu-option{
+    text-align: center;
+    margin: 100 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #a07330;
+    font-size: 15px;
+}
+
+#menu-option li, a {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #a07330;
+    cursor: pointer;
+    
+}
+
+.market h1 {
+    width: 100%;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.carousel-inner {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+}
+
+@media (max-width: 375px)
+{
+.menu-principal{
+    width: 100%;
+    height: 150px;
+    background-color: #fff6e5;
+}
+
+.menu-principal img {
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 0.6;
+    width: 15%;
+    
+}
+.menu-principal h1 {
+    font-family: 'Dancing Script','Fuggles', cursive;
+    font-size: 45px;
+    color: #a07330;
+    text-align: center;
+    margin-top: -60px;
+}
+
+#menu-option{
+    text-align: center;
+    margin: 100 20px;
+    margin-top: 25px;
+    font-weight: bold;
+    color: #a07330;
+    font-size: 15px;
+}
+
+#menu-option li, a {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #a07330;
+    cursor: pointer;
+    
+}
+
+.market h1 {
+    width: 100%;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.carousel-inner {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+}
