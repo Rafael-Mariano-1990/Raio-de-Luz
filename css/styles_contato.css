@@ -145,44 +145,41 @@ footer p{
 
 @media (max-width: 768px)
 {
-.menu-principal
-   {
-    width: 100%;
-    height: 200px;
-    background-color: #fff6e5;
-}
+    .menu-principal{
+        width: 100%;
+        height: 200px;
+        background-color: #fff6e5;
+    }
 
-.menu-principal img {
-    margin-top: 10px;
-    margin-left: 10px;
-    opacity: 0.6;
-    width: 15%;
+    .menu-principal img {
+        margin-top: 10px;
+        margin-left: 10px;
+        opacity: 0.6;
+        width: 15%;
     
-}
-.menu-principal h1 {
-    font-family: 'Dancing Script','Fuggles', cursive;
-    font-size: 100px;
-    color: #a07330;
-    text-align: center;
-    margin-top: -120px;
-}
+    }
+    .menu-principal h1 {
+        font-family: 'Dancing Script','Fuggles', cursive;
+        font-size: 100px;
+        color: #a07330;
+        text-align: center;
+        margin-top: -120px;
+    }
 
 
-.market h1 {
-    width: 100%;
-    font-family: "Segoe UI",Arial,sans-serif;
-    font-size: 20px;
-}
+    .market h1 {
+        width: 100%;
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-size: 20px;
+    }
 
-.carousel-inner {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-}
-
-
+    .carousel-inner {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
 }
 
 @media (max-width: 425px)
@@ -295,5 +292,9 @@ footer p{
     width: 100%;
 }
 
-
+.map-responsive {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 300px;
+}
 }
